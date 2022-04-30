@@ -99,9 +99,8 @@ nav a:hover {
 
   z-index: 5;
   height: 100vh;
-  width: 100%;
-  min-height: 100vh;
-  transform: scale(0.3);
+  width: 100vw;
+  transform: scale(0.24);
   opacity: 0.3;
   /* margin-bottom: 50em; */
 }
