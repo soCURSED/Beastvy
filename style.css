@@ -291,7 +291,7 @@ nav a:hover {
   transform: scale(1.1);
 }
 #expert {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
   font-size: 0.8em;
   display: flex;
   font-weight: 300;
@@ -299,6 +299,9 @@ nav a:hover {
   align-items: center;
   text-align: center;
   background-color: #000000;
+}
+#expert p {
+  text-transform: lowercase;
 }
 #expert-link {
   text-decoration: none;
@@ -486,9 +489,12 @@ nav a:hover {
     padding: 20px;
     transform: scale(0.7);
   }
+  .cotant-info {
+    overflow: hidden;
+  }
   #expert {
     font-size: 0.7em;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
   }
   #expert-link {
     text-decoration: none;
